@@ -1,5 +1,6 @@
 package com.meyoung.day1;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 /**
@@ -34,6 +35,7 @@ public class TestNGDemo1 {
     public void testCasea() throws InterruptedException {
         Thread.sleep(5000);
         System.out.println("这是@Test注解,case3");
+        Assert.assertEquals(1,2);
     }
 
     @Test
