@@ -3,7 +3,7 @@
 <suite name="Default Suite">
     <test name="SeleniumDemo1701">
         <classes>
-            <class name="com.meyoung.day1.TestNGDemo1">
+            <class name="com.meyoung.day1.TestNGDemo02">
             </class>
             <!-- com.meyoung.day3.GridTest -->
         </classes>
