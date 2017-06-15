@@ -47,8 +47,6 @@ public class WaitTest {
         Assert.assertEquals(text, "wait for display");
     }
 
-
-
     @Test
     public void waitTest2() throws InterruptedException {
         driver.get("file:///C:/selenium_html/index.html");
